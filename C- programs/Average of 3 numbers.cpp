@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main() {
 	float a,b,c, average;
-	printf("Enter first number: ");
+	printf("Enter first digit: ");
 	scanf("%f",&a);
-	printf("Enter second number: ");
+	printf("Enter second digit: ");
 	scanf("%f",&b);
-	printf("Enter third number: ");
+	printf("Enter third digit: ");
 	scanf("%f",&c);
 	
 	average=(a+b+c)/3;
@@ -14,3 +14,4 @@ int main() {
 	
 	return 0;
 }
+
